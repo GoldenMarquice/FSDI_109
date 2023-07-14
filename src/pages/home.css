@@ -1,0 +1,15 @@
+
+.home{
+    padding: 5px 1px;
+    background-color: white;
+
+}
+
+.home h1{
+    text-align: center;
+}
+
+.homeLink{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
