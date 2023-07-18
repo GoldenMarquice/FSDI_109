@@ -1,5 +1,29 @@
-.cartContainer{
+.cart{
     background-color: aliceblue;
     
+}
 
+.cart .parent {
+    display: flex;
+    height: 100%;
+}
+
+.cart .sec-prods{
+    flex: 3;
+    height: 100%;
+    padding: 15px 90px;
+}
+
+.cart .sec-coupons{
+    flex: 2;
+    height: 100%;
+    padding: 15px 90px;
+}
+
+.cart .form{
+    text-align: left;
+    border: 1px solid #adacac;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: white;
 }

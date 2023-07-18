@@ -11,11 +11,13 @@ import Admin from "./pages/admin";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import GlobalState from "./store/globalState";
 
 
 
 function App() {
   return (
+    <GlobalState>
     <BrowserRouter>
     <div className="App">
       <NavBar/>
@@ -30,6 +32,7 @@ function App() {
       <Footer/>
     </div>
     </BrowserRouter>
+    </GlobalState>
   );
 }
 
