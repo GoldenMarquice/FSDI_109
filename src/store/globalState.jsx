@@ -8,8 +8,22 @@ const [user, setUser] = useState ({id: 12, name: "Marquice"});
 function addToCart(product){
 
     console.log("Fn from Global State");
-    let copy = [...cart]
+    let copy = [...cart];
+
+    let found = false;
+
+    for (let i=0; i<cart.length; i++){
+        let productInCart = copy[i];
+        if (productInCart.id == product.id){
+            productInCart += product.quantity;
+            found = true;
+        }
+    }
+    
+    if (!found) {
     copy.push(product);
+    }
+
     setCart(copy);
 }
 

@@ -32,7 +32,7 @@ function NavBar() {
             <Link to="/admin"> Admin Page </Link>
 
             <form role="search" className="navbar">
-        <input type="text" placeholder="Search" aria-label="Search" className="form-control me-2" max />
+        <input type="text" placeholder="Search" aria-label="Search" className="form-control me-2" />
             </form>
             <Link className="btn btn-outline-light" to="/cart"  >
                 {getNumProducts()} 

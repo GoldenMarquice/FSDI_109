@@ -1,5 +1,6 @@
 .cart{
     background-color: aliceblue;
+    align-items: flex ;
     
 }
 
@@ -24,6 +25,11 @@
     text-align: left;
     border: 1px solid #adacac;
     border-radius: 5px;
-    padding: 15px 25px;
+    margin: auto;
+    width: 100%;
     background-color: white;
+}
+
+.btn btn-dark{
+    align-items: center;
 }
